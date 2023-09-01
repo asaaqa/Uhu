@@ -60,8 +60,6 @@
     }
   }],
   "buildpacks": [{
-    "url":"https://github.com/asaaqa/Heroku-Buildpack-FFMPEG-latest"
-  },{
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
   },{
     "url": "https://github.com/riganf/heroku-buildpack-p7zip"
