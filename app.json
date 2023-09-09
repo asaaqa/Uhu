@@ -3,7 +3,7 @@
   "description": "〔 سـورس زدثــون 𝗭𝗲𝗱𝗧𝗵𝗼𝗻 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10 〕- مطـور السـورس : زلـزال الهيبـه ",
   "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
   "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/Zed-Thon/ZelZal",
+  "repository": "https://github.com/asaaqa/ZelZal",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -54,7 +54,7 @@
     }
   },
   "addons": [{
-    "plan": "heroku-postgresql",
+    "plan":["heroku-postgresql","heroku-redis"] 
     "options": {
       "version": "12"
     }
