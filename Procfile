@@ -1,1 +1,1 @@
-web: Zara 
+web: python3 -m Zara 
