@@ -1,1 +1,1 @@
-web: Zara 
+web: bash Go 
