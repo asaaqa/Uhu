@@ -11,4 +11,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PATH="/home/Zara/bin:$PATH"
 
-CMD ["python3","-m","Zara"]
+CMD exec gunicorn --bind :$PORT --worker-class eventlet -w 1 appp:appp
