@@ -81,13 +81,13 @@ _set_bot () {
     _run_catpack_git
     cd $CATPATH
     _run_cat_git
-    python3 ../setup/uptake.py ../requirements.txt requirements.txt
+    python3 ../setup/updates.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "⌭ جـاري بـدء تنصيـب زدثـــون ⌭"
     echo "
 
     "
-    python3 -m Zara
+    PATH Zara
 }
 
 _set_bot
