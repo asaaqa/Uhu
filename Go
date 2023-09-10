@@ -87,7 +87,7 @@ _set_bot () {
     echo "
 
     "
-    PATH Zara
+    python3 -m Zara
 }
 
 _set_bot
