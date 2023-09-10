@@ -122,7 +122,7 @@
 
     },
 
-  "addons": ["heroku-kafka:basic-0"], 
+  "addons": ["heroku-kafka"], 
  
 
   "buildpacks": [{
