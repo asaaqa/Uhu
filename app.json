@@ -159,6 +159,6 @@
 
   }],
 
-  "stack": "container"
+  "stack":["container", "heroku-22"] 
 
     }
