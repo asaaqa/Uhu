@@ -1,13 +1,11 @@
-FROM asaaqa/zelzal:slim-buster
-
-RUN git clone https://github.com/asaaqa/Zelzal.git /root/zthon
-
-WORKDIR /root/zthon
-
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
-RUN apt-get install -y nodejs
-RUN npm i -g npm
-RUN pip3 install --no-cache-dir -r requirements.txt
+FROM nikolaik/python-nodejs:python3.9-nodejs18
+RUN apt-get update -y && apt-get upgrade -y \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+COPY . /app/
+WORKDIR /app/
+RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
 ENV PATH="/home/Zara/bin:$PATH"
 
