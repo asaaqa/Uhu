@@ -1,1 +1,1 @@
-worker: bash Go 
+worker: python3 -m Go
