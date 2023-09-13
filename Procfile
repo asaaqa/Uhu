@@ -1,1 +1,1 @@
-web: bash Go 
+worker: bash Go 
