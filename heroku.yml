@@ -2,4 +2,4 @@ build:
   docker:
       web: Dockerfile
 run:
-   web: python3 -m tre
+   web: python3 -m Zara
